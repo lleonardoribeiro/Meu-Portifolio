@@ -1,0 +1,24 @@
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #fff solid 1px;
+}
+
+.rodape-content {
+  text-align: left;
+}
+
+.icon-rodape {
+  display: flex; /* Isso faz os ícones ficarem na horizontal */
+  gap: 10px; /* Espaço entre os ícones */
+}
+
+.icon {
+  display: inline-block; /* Certificando-se de que os ícones ficam na linha */
+}
+
+.rodape img {
+  margin-bottom: 40px;
+}
